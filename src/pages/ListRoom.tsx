@@ -86,8 +86,10 @@ export function ListRoom() {
               />
             </div>
             <div className="separator">
-              <span>{searchRoom.length ? resultPesquisa.length : rooms.length}</span>
-              <FontAwesomeIcon icon={faCommentAlt}></FontAwesomeIcon>
+              <div className="iconSeparator">
+                <span>{searchRoom.length ? resultPesquisa.length : rooms.length}</span>
+                <FontAwesomeIcon icon={faCommentAlt}></FontAwesomeIcon>
+              </div>
             </div>
             {!loading ? (
               <>

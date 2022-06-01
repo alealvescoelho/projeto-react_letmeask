@@ -201,8 +201,15 @@
             margin-left: 16px;
         }
 
-        > span {
-            margin-right: 2px;
+        .iconSeparator {
+            color: #835afd;
+            display: flex;
+            align-items: center;
+
+            > span {
+                margin-right: 4px;
+                font-size: large;
+            }
         }
     }
 

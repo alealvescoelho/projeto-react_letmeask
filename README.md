@@ -118,8 +118,7 @@ alt="Firebase" height="40"/> </a>
 ## Desenvolvedor
 
 <p align="justify">
-  Foi desenvolvido por mim, usilizando o curso sobre React Web da Rocketseat.
-</p></br>
-
+  Foi desenvolvido por mim, utilizando o curso sobre React Web da Rocketseat.
+</p>
 <a href="https://www.rocketseat.com.br/" target="_blank"> <img src="https://rocketseat.gallerycdn.vsassets.io/extensions/rocketseat/rocketseatreactjs/3.0.2/1588456824702/Microsoft.VisualStudio.Services.Icons.Default" 
 alt="Firebase" height="40"/> </a>

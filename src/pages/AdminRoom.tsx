@@ -52,29 +52,29 @@ export function AdminRoom() {
         }
 
         if (author === user?.id) {
-            if (newTheme === 'dark') {
-                Toast.fire({
-                    background: 'black',
-                    color: 'white',
-                    icon: 'success',
-                    title: 'Bem vindo de volta!'
-                })
-            } else {
-                Toast.fire({
-                    background: 'white',
-                    color: 'black',
-                    icon: 'success',
-                    title: 'Bem vindo de volta!'
-                })
-            }
+            // if (newTheme === 'dark') {
+            //     Toast.fire({
+            //         background: '#29292e',
+            //         color: '#f8f8f8',
+            //         icon: 'success',
+            //         title: 'Bem vindo de volta!'
+            //     })
+            // } else {
+            //     Toast.fire({
+            //         background: '#f8f8f8',
+            //         color: '#29292e',
+            //         icon: 'success',
+            //         title: 'Bem vindo de volta!'
+            //     })
+            // }
             return;
         } else if (author !== user?.id || (author !== undefined || author !== null) || (user?.id !== undefined || user?.id !== null)) {
             console.log('author: ', author);
             console.log('user.id: ', user?.id);
             if (newTheme === 'dark') {
                 Swal.fire({
-                    background: 'black',
-                    color: 'white',
+                    background: '#29292e',
+                    color: '#f8f8f8',
                     title: 'Opa!',
                     text: 'Aparentemente você não é o Administrador desta sala.',
                     icon: 'error',
@@ -83,6 +83,8 @@ export function AdminRoom() {
                 navigate("/");
             } else {
                 Swal.fire({
+                    background: '#f8f8f8',
+                    color: '#29292e',
                     title: 'Opa!',
                     text: 'Aparentemente você não é o Administrador desta sala.',
                     icon: 'error',
@@ -106,8 +108,8 @@ export function AdminRoom() {
 
         if (newTheme === 'dark') {
             const { value: encerrar } = await Swal.fire({
-                background: 'black',
-                color: 'white',
+                background: '#29292e',
+                color: '#f8f8f8',
                 icon: 'warning',
                 title: 'Chega!',
                 text: 'Deseja realmente encerrar esta sala?',
@@ -124,6 +126,8 @@ export function AdminRoom() {
             };
         } else {
             const { value: encerrar } = await Swal.fire({
+                background: '#f8f8f8',
+                color: '#29292e',
                 icon: 'warning',
                 title: 'Chega!',
                 text: 'Deseja realmente encerrar esta sala?',
@@ -166,8 +170,8 @@ export function AdminRoom() {
 
         if (newTheme === 'dark') {
             const { value: deletar } = await Swal.fire({
-                background: 'black',
-                color: 'white',
+                background: '#29292e',
+                color: '#f8f8f8',
                 icon: 'warning',
                 title: 'Essa já foi!',
                 text: 'Deseja deletar esta pergunta?',
@@ -181,6 +185,8 @@ export function AdminRoom() {
             };
         } else {
             const { value: deletar } = await Swal.fire({
+                background: '#f8f8f8',
+                color: '#29292e',
                 icon: 'warning',
                 title: 'Essa já foi!',
                 text: 'Deseja deletar esta pergunta?',
