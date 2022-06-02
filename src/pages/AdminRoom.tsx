@@ -33,17 +33,17 @@ export function AdminRoom() {
     const navigate = useNavigate();
     const [ newTheme, setNewTheme ] = useState(themeCache ? themeCache : "light");
     const [themeHover, setThemeHover] = useState('');
-    const Toast = Swal.mixin({
-        toast: true,
-        position: 'top-end',
-        showConfirmButton: false,
-        timer: 2000,
-        timerProgressBar: true,
-        didOpen: (toast) => {
-            toast.addEventListener('mouseenter', Swal.stopTimer)
-            toast.addEventListener('mouseleave', Swal.resumeTimer)
-        }
-    })
+    // const Toast = Swal.mixin({
+    //     toast: true,
+    //     position: 'top-end',
+    //     showConfirmButton: false,
+    //     timer: 2000,
+    //     timerProgressBar: true,
+    //     didOpen: (toast) => {
+    //         toast.addEventListener('mouseenter', Swal.stopTimer)
+    //         toast.addEventListener('mouseleave', Swal.resumeTimer)
+    //     }
+    // })
 
     useEffect(() => {
 
