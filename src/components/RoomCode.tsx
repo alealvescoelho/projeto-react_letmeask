@@ -11,8 +11,8 @@ type RoomCodeProps = {
 export function RoomCode({isDark = false, ...props}: RoomCodeProps) {
 
     const Toast = Swal.mixin({
-        background: isDark ? 'black' : 'white',
-        color: isDark ? 'white' : 'black',
+        background: isDark ? '#29292e' : '#f8f8f8',
+        color: isDark ? '#f8f8f8' : '#29292e',
         toast: true,
         position: 'top-end',
         showConfirmButton: false,
