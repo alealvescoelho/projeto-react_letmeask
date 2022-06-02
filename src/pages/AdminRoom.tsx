@@ -18,7 +18,6 @@ import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 import { useEffect, useState } from 'react';
 import { useAuth } from '../hooks/useAuth';
 
-
 type RoomParams = {
     id: string;
 }
