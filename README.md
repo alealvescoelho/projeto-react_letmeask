@@ -37,7 +37,7 @@ Em desenvolvimento...
 
  <p>
   
-   Criação de salas de maneira rápida e simples utiliando autenticação pelo Google, utilizando Firebase:
+   Criação de salas de maneira rápida e simples com autenticação pelo Google, utilizando Firebase:
 ![video-letmeask_1](https://user-images.githubusercontent.com/80740780/162769443-16d985b9-4b1e-4c21-b33f-588b3558520b.gif)
  </p>
  
